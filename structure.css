@@ -42,8 +42,8 @@ ul {
 
 header {
 	background-color:#ccc;
-	margin-bottom:100px;
-	padding:3%;	
+	margin-bottom:150px;
+	padding:4%;	
 }
 
 /* 3. Article
@@ -52,13 +52,14 @@ header {
 article {
 	margin-bottom:10%;
 	overflow:hidden; /* to clear my floated elements */
+	position:relative; /* to position our stickyElem to the bottom */
 }
 
 .stickyElem {
 	background-color:#eee;
 	float:left;
 	padding:2%;
-	width:21%;	
+	width:21%;
 }
 
 .prepareToScroll {
@@ -66,7 +67,17 @@ article {
 	color:#fff;
 	float:right;
 	padding:2%;
-	width:64%;
+	width:66%;
 	
 	height:2000px;	
+}
+
+.fixed {
+	position:fixed;
+	top:100px;
+}
+
+.release {
+	bottom:100px;
+	position:absolute;
 }
