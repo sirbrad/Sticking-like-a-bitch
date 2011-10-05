@@ -1,0 +1,72 @@
+/* 1. Generic Browser Defaults
+	2. General Layout
+	3. Photo Loader
+	4. CSS3 Animation
+	
+ **********************************************************************/
+
+/* 1. Generic Browser Defaults
+ **********************************************************************/
+
+html, body { 
+	background-color: #fff; 
+	border: 0; 
+	color: #333; 
+	font: normal small Arial, Verdana, sans-serif; 
+	margin: 0; 
+	padding: 0; 
+	vertical-align: baseline; 
+}
+
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+
+p { 
+	margin: 0 0 0.5em; 
+}
+
+ul { 
+	list-style: none;
+	margin: 0; 
+	padding: 0; 
+}
+
+/* 2. General Layout
+ **********************************************************************/
+
+#contain {
+	margin:0 auto;
+	width:80%;
+}
+
+header {
+	background-color:#ccc;
+	margin-bottom:100px;
+	padding:3%;	
+}
+
+/* 3. Article
+ **********************************************************************/
+
+article {
+	margin-bottom:10%;
+	overflow:hidden; /* to clear my floated elements */
+}
+
+.stickyElem {
+	background-color:#eee;
+	float:left;
+	padding:2%;
+	width:21%;	
+}
+
+.prepareToScroll {
+	background-color:#666;
+	color:#fff;
+	float:right;
+	padding:2%;
+	width:64%;
+	
+	height:2000px;	
+}
