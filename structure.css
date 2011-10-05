@@ -69,7 +69,7 @@ article {
 	padding:2%;
 	width:66%;
 	
-	height:2000px;	
+	height:2000px;	/* This doesn't have to be set */
 }
 
 .fixed {
