@@ -58,7 +58,7 @@
 					elemOffSet = elem.offsetTop,
 					elemHeight = elem.clientHeight,
 					space = 50, // This determines how much space after the header
-					totalSpace = elemOffSet - header - space, // x = y(w-z) -- First attempt ever at an algorithm haha
+					totalSpace = elemOffSet - header - space, // x = y - w - z // Check out that algorithm
 					totalFigure = elemOffSet + elemHeight,
 					stickyElem = elem.getElementsByTagName('div')[0], // We know its our first div element:)
 					stickyElemHeight = stickyElem.clientHeight,
